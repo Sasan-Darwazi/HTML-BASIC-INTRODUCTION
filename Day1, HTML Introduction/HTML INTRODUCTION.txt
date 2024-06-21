@@ -1,0 +1,9 @@
+What is HTML?
+
+Stand for Hyper Text Markup Language.
+Hypertext: link between web pages.
+Markup language: Text between tags which defines structure.
+It is a language to create web pages.
+HTML defines how the web page looks and how to display content with the help of element.
+It forms or defines the structure of our Web Page.
+Need to save your file with .html extension.
