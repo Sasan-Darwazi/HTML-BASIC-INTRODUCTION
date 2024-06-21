@@ -1,0 +1,7 @@
+Feature of HTML:
+.The learning curve is very easy.
+.create Effective presentations.
+.Add links wherein we can add references.
+.Can display documents on platform like Mac, Windows, Linux etc.
+.Add videos, graphics and audio making it more attractive.
+.Case insensitive language.
