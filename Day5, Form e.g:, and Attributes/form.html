@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <h1>Registration form</h1>
+
+    <form action="#" method="post">
+        <label for="">First Name: <input type="text" name="firstName" placeholder="FirstName" required></label>
+    <br>
+        <label for="">Last Name: <input type="text" name="lastName" placeholder="LastName" required></label>
+    
+        <br>
+        <label for="">Male: <input type="radio" name="gender" value="male"></label>
+ 
+        <br>
+        <label for="">Female: <input type="radio" name="gender" value="female"></label>
+       <br>
+       
+       <label for="">Other: <input type="radio" name="Other" value="other"></label>
+       <br>
+       <label for="">Email: <input type="email" name="email" placeholder="Your Email" required>
+        </label>
+       <br>
+        <label for="">Password: <input type="password" name="password" placeholder="Your Password" pattern=".{5,10}"  required title="Please enter password of length 5 to 10"></label>
+    
+         
+ <br>
+        <label for="">Birthday: </label>
+    
+        <br>
+        <select name="Month" id="Birthday">
+            <option value="">Months</option>
+            <option value="">Jan </option>
+            <option value="">Feb </option>
+            <option value="">Mar </option>
+            <option value="">April </option>
+            <option value="">May </option>
+            <option value="">June </option>
+            <option value="">July </option>
+            <option value="">August </option>
+            <option value="">Sep </option>
+            <option value="">Oct </option>
+        </select>
+<br>
+        <select name="Day" id="Birthday">
+            <option value="">Day</option>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+        </select>
+
+        <br>
+        <label for="">I agree to the terms and conditions</label>
+        <input type="checkbox" name="check">
+        <br>
+        <hr>
+        <br>
+        <input type="submit" name="submit">
+        
+    </form>
+</body>
+</html>

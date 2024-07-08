@@ -1,0 +1,55 @@
+Div and Span tag: both are used for the same purpose, while the div is block level tag and span is inline element tag.
+
+.Both of these are used to group different tag
+.Acts like a container
+.Effective while styling
+.<div> ... </div>
+.<span> ... </span>
+.Difference <div> is block level and <span> is inline level.
+
+
+Image tag:
+.Used to add images in a web page
+.syntax <img src="url">
+
+
+a tag:
+.Used to add links in a web page
+. <a href="url"> name of the link </a>
+
+
+Table tag:
+.Used to createa a table on a web page
+.Need other tags for completing the creation of a table
+.<tr>: for making the table rows
+.<th>: for the table heading
+.<td>: for the column data
+.Everything is always enclosed withing <tr>
+.<thead>: to keep all header data
+.<tbody>: to keep all body data
+
+
+
+Form tag:
+.Action attribute: it specifies the URL to send from data to user
+.Method attribute: Specifies the type of HTTP request (GET or POST)
+.Example: <form action="/my-form-submitting-page" method="POST">
+.<input>: used to accept data from user
+.Some types of inputs are:
+Text: It is used to store the data in the form of text.
+Password
+Placeholder: temporary text in input field: Like name, username.
+Buttong: used to include buttons in the form. syntax: type="button" value="insert-text-here".
+Submit button: For creating a submit button. all the data will get submitted when it is clicked. syntax: type="submit".
+Checkbox: to provide the ability to check multiple options. syntax: type="checkbox". to check options by default. 
+
+Radio button: allows on to choose a single option. syntax: type="radio". keep the name attribute of all the options the same.
+<select> for every possible option to select, use an <option> tag <option>
+
+Text Areas: Multi-line plain-text editing control. syntax: <textarea>. you can specify how large the text area is by using the "rows" and 'Cols" attributes.
+
+Label: add captions for individual items in a form. syntax: <label>. A label can be used by placing the control element inside the <label> element, or by using the "for" and "id" attributes.
+
+.Validation ensure the users fill out forms in the correct format, E.G:
+a. Required: The Boolean attribute which makes a filed mandatory.
+b. email: the browser will ensure that the field contains an @ symbol.

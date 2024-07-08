@@ -1,0 +1,9 @@
+Attributes:
+
+
+Properties associated with each tag.
+<tag name="value"> </tag> is the structure.
+ 
+Global Att:
+Tile : add extra information (Hover)
+Style:  add style information (font, background, color, size).
