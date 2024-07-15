@@ -1,0 +1,24 @@
+What is CSS?
+
+.CSS stands for Cascading Style Sheets
+.If HTML is the structure of the house then CSS is the look and feel of the house.
+.It's the languages to make our web-pages presentable
+.Designed to make style sheets for web
+.Now let's try to break the acronym:
+ Cascading: Falling of styles
+ Style: Adding designs/styling our HTML tags
+ Sheets: Writing our style in different documents.
+
+
+Basic Structure:
+
+Selector{
+Propery1: value;
+Property2: value;
+Property3: value;
+.Selector: Selects the element you want to target
+.There are few basic selectors like tags, id's and classes
+.All forms this key - value pair
+.Keys: properties(attributes) like color, font-size, background, width, height, etc
+.Value: values associated with these properties
+.Always remains same whether we apply internal or external styling
