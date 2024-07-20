@@ -1,0 +1,41 @@
+Comments in CSS:
+When you talk about programming, comment playing the most significant role in programming, particularly in your code that make it much legible and readable.
+.Comment Don't render on the browser
+.Helps to understand our code better and makes it readable
+.Helps to debugging our code
+.Two ways to comment:
+ .Single line
+ .Multiple line
+
+
+Inline CSS:
+
+There are three ways to write CSS in our HTML file.
+
+.Inline CSS
+.Internal CSS
+.External CSS
+
+Priority Order:
+.Inline > Internal > External
+
+
+Inline CSS:
+<h3 style="color:red"> have a great day</h3>
+<p style = "color:green"> I did this, I did that</p>
+
+Internal CSS
+
+.With the help of style tag we can apply styles within the HTML File
+.Redundancy is removed
+.But idea of separation of concerns still lost
+.Uniquely applied on single document
+.example
+<style>
+h1 {
+color:red;
+}
+</style>
+
+<h3> Have a great day </h3>
+ 
