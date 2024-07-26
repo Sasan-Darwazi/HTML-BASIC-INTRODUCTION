@@ -1,0 +1,35 @@
+CSS Selectors:
+
+.Selector are used to target elements and apply CSS
+.Three simple selectors
+ .Element selectors 
+ .ID Selectors
+ .Class selectors
+
+Priority of selectors
+Id > class > elements
+
+
+
+Universal Selectors:
+.Wild card character
+.Used to target specific all the elements
+.How we do it?
+
+* {
+color: red;
+
+}
+
+We selected all the elements then change the color property.
+
+
+
+Group Selector
+
+.group selector minimizes code
+.used to target specific group of element
+
+h1, p{
+color: red;
+}
