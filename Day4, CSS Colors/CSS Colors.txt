@@ -1,0 +1,16 @@
+CSS Colors:
+There are different coloring schemes in CSS
+.2 widely used techniques are as follows
+
+.RGB
+ .This start with rgb and takes 3 parameter
+ .3 parameter basically correspond to red, green and blue
+ . value of each parameter may vary from 0 to 255
+ e.g: rgb(255,0,0); means color red
+
+ .HEX
+ .Hex code starts with # and comprises of 6 numbers
+ .Which is further divided into 3 sets
+ .Set basically corresponds to red, green and blue
+.A single set value can vary from 00 to ff
+.E.g:  #ff0000 means color red
