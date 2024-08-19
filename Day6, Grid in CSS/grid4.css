@@ -1,0 +1,127 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    /* background-color: antiquewhite; */
+}
+
+
+:root{
+    --main-color:#6400e4;
+    --box-shadow: 0px 1px 2px 1px rgba(0,0,0,0.34);
+    --hover-shadow: 0px 4px 4px 0px rgba(3,3,3,0.561);
+    --nav-shadow: 0px 0px 10px 0px rgba(0,0,0,0.100);
+    --color:#fff;
+    --back-color:black; 
+}
+
+
+.container{
+    margin:10px;
+    /* max-width: 700px;; */
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: 200px 250px;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    height: 100vh;
+
+    grid-gap: 5px;
+    grid-template-areas: "nav nav nav nav"
+    "sidebar main main main"
+    "sidebar content1 content2 content3"
+    "sidebar footer footer footer";
+    text-align: center;
+    justify-content: center;;
+    
+}
+
+
+nav{
+    background-color: #6400e4;
+    grid-area: nav;
+    background-color: #ff1d58;
+    font-family: garamond;
+    font-size: 1.5em;
+    /* text-align: center; */
+    color: #fff;;
+}
+
+
+main{
+    grid-area: main;
+    background-color: #f75990;
+    font-family: garamond;
+    font-size: 1.5em;
+    color: #fff;
+    border-radius: 10px;;
+    padding:10px;
+
+    box-shadow: var(--box-shadow);
+    transition: 0.5s all ease-in-out;
+}
+
+main:hover{
+    transform: scale(1.02);
+
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background: #393346;
+    font-family: garamond;
+    font-size: 1.5em;
+    color: #fff;
+    padding:10px;
+
+
+}
+
+.content1{
+    grid-area: content1;
+    background: #4b125c;
+    font-family: garamond;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 10px;;
+    padding:10px;
+
+}
+
+.content2{
+    grid-area: content2;
+    background: #a02a63;
+    font-family: garamond;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 10px;;
+    padding:10px;
+
+
+}
+
+.content3{
+    grid-area: content3;
+    background:#883c82;
+    font-family: garamond;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 10px;;
+    padding:10px;
+
+
+}
+
+footer{
+    grid-area: footer;
+    background:#b7569a;
+    font-family: garamond;
+    font-size: 1.5em;
+    color: #fff;
+    padding:10px;
+
+}
+
+
+
+
+
