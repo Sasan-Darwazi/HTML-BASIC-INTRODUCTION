@@ -1,0 +1,137 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    /* background-color: antiquewhite; */
+}
+
+
+:root{
+    --main-color:#6400e4;
+    --box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.34);
+    --hover-shadow: 0px 4px 4px 0px rgba(3,3,3,0.561);
+    --nav-shadow: 0px 0px 10px 0px rgba(0,0,0,0.100);
+    --color:#fff;
+    --back-color:black; 
+    border-width: 5px;
+}
+
+
+.container{
+    /* height: 100vh; */
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    align-items: flex-start;
+}
+
+
+.container div{
+    border: 1px solid #CCC;;
+    padding:10px;
+    /* box-shadow: var(--box-shadow); */
+
+    box-shadow: 0px 1px 1px 0px rgba(3,3,3,0.561);
+    margin: 10px 2px;
+    flex-basis: 500px;
+    transition: all 0.5s ease-in-out;
+
+  
+}
+
+.container div:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.01);
+    /* box-shadow: 0px 1px 1px 0px rgba(3,3,3,0.561); */
+  
+}
+
+ .box-1{
+    flex-grow: 1;
+    /* order:2; */
+    
+}
+
+ .box-2{
+    flex: 1;
+    /* flex: 2; */
+    /* flex-grow: 1; */
+    /* order:1; */
+    /* align-items: flex-end; */
+   
+}
+
+.box-3{
+    flex: 1;
+    /* order:3; */
+}
+
+.container div h2{
+    padding: 10px 0;
+    font-family: garamond;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+
+.container div p{
+    letter-spacing: 1px;
+    font-family: garamond;
+    font-weight: 18px;
+    
+}
+
+
+.container-1{
+    display: flex;
+    /* justify-content: center; */
+    align-items: flex-end;
+}
+
+
+
+.container-1 div{
+    border:1px solid #ccc;
+    margin: 10px 2px;
+    padding:10px;
+    flex-basis: 20px;
+}
+
+.container-1 div h2{
+    font-family: garamond;
+    padding: 10px 0;;
+    letter-spacing: 1px;;
+}
+
+
+
+
+
+.container-1 div:hover{
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: 0.5s all ease-in-out;
+    box-shadow: 0px 1px 1px 0px rgba(3,3,3,0.561);
+
+}
+
+
+@media(min-width:768px){
+    .container {
+        /* height: 100vh; */
+        display:flex;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-basis: 500px;;
+    }
+
+    .container div{
+        
+    }
+}
