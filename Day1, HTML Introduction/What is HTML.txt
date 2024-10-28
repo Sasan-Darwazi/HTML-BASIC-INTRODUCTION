@@ -1,0 +1,37 @@
+What is HTML?
+HTML stands for Hyper Text Markup Language
+HTML is the standard Markup Language for creating web pages
+HTML describes the structure of the webpage
+HTML consists of a series of elements
+HTML elements tell the browser how to display the content
+
+HTML is the language in which most websites are written. HTML is used to create pages and make them functional.
+
+
+Hypertext means that the document contains links that allow the reader to jump to other places or another document altogether.
+
+
+A Markup Language is a way that computers communicate with each other to control how text is processed and presented. To do this, HTML uses two things: Tags and Attributes.
+
+
+
+What are Tags and Attributes?
+
+Tags are used to mark up the start of an HTML element and they are usually enclosed in angle brackets. An example of a tag is: <h1>
+
+What are HTML Attributes?
+
+Attribute contain additional pieces of information. Attributes take the form of an opening tag and additional info is placed inside.
+
+An example of an attribute is:
+<img src = mydog.jpg" alt = "A photo of my dog.">
+
+
+
+
+
+
+
+
+
+
