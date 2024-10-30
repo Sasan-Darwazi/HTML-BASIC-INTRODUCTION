@@ -1,0 +1,71 @@
+HTML Editor:
+1. VS code
+2. Notepad
+3. Notepad++
+
+
+Creating Your First HTML Webpage
+In the ground up, you need to open your THML editor, where you will find a clean white page on which to write your code.
+
+Basic Construction of an HTML Page
+These tags should be placed underneath each other at the top of every HTML page that you create.
+
+<!Doctype HTML>: Tells the browser that you used the HTML5.
+
+<html>: This tag signals that from here on we are going to write in HTML code.
+
+<head> This is where all the metadata for the page goes - stuff mostly meant for search engines and other computer programs.
+
+<body>: This is where the content of the page goes.
+
+<meat> This is where information about the document is stored: character encoding, name(page context), and description.
+
+HTML Heading: 
+In HTML, headings are written in the following elements:
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+
+Creating Your Heading: 
+<h1> Welcome to my page.</h1>
+
+
+How to add text in HTML:
+Adding text to our HTML page is simple using an element opened with the tag <p> which creates a new paragraph. We place all of our regular text inside the element <p>
+
+<p>topic about earth. </p>
+
+Other key elements:
+<b> = bold
+<strong> = strong
+<i> = Italic
+<em> Emphasized Text
+<mark> = Mark Text: highlight the background of the text
+<small> = Small text: To shrink the text
+<strike> = Struck out Text: To place a horizontal line across the text
+<u> = Underlined text: 
+<ins> = Inserted text: Displayed with an underline to show an inserted text
+<sub> = Subscript text: Typographical Stylistic Choice
+<sup> = Superscript text: Another typographical presentation style
+
+
+E.G.: <p> Welcome to <em>MY</em> brand new website This site will be my <strong>new </strong> home on the web. </p>
+
+
+How to add links in HTML: Always everything you click on while surfing the web is a link that takes you to another page within the website you are visiting or to an external site.
+
+The Anchor Tag: The <a> (or anchor) opening tag is written in the format:
+<a href = "https: //blogging.com/how-to-start-a-blog/">Your link text here </a>
+
+
+How to add Images in HTML to your website
+In today's modern digital world, images are everything. The <img> tag has everything you need to display images on your site. <img> tag contains attributes as the anchor tag.
+
+
+<img src = "yourimg.jpg" alt = "Describe the image" height = "X" width = "X">
+
+
+
+
+
+
+
+
