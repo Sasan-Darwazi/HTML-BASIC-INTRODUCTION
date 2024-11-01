@@ -1,0 +1,74 @@
+How To Make an HTML List?
+
+In web design, there are 3 different types of list which you may wish to add to your site.
+
+Ordered List
+
+The first is an <OL>, an ordered content list. For example:
+
+1. An item
+2. Another item
+3. Another goes here.
+
+
+Inside the <ol> tag we list each item on the list inside <li> </li> tags.
+
+E.G.:
+<ol>
+<li> An item</li>
+<li> Another item</li>
+<li> Another goes here</li>
+
+</ol>
+
+Unordered List
+
+The second type of list that you may wish to include is an <ul> unordered list.
+This is better known as a bullet point list and contains no numbers
+
+<ul> 
+<li> An item</li>
+<li> Another item</li>
+<li> Another goes here</li>
+
+</ul>
+
+
+Definition List:
+
+Finally, you may wish to include a definition list <dl> on you page. An example of <dl> list is as follows:
+
+<dl> 
+<dt> Item</dt>
+<dd> The definition goes here</dd>
+</dl>
+
+
+
+
+Table: Another way to keep your website looking neat and orderly is through the use of a table.
+
+
+What Does a Table Consist Of?
+
+When drawing a table we must open an element with <table> opening tag.
+Inside this tag, we structure the table using the table rows, <tr>, and cells, <td>.
+
+
+
+E.G.:
+<table> 
+<tr>
+ <td>Row 1 - Column 1</td>
+ <td>Row 1 - Colunm 2 </td>
+ <td>Row 1 - Column 3 </td> 
+</tr>
+ <tr> 
+<td>Row 2 - Column 1</td> 
+<td>Row 2 - Column 2</td> 
+<td>Row 2 - Column 3</td>
+ </tr>
+ </table>
+
+Read more: https://html.com/#ixzz8qK4v8Aiv
+
