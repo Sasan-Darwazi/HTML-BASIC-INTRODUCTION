@@ -1,0 +1,22 @@
+h2{
+    font-size: 2rem;
+}
+
+
+/* Border */
+#para{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+    /* Border */
+    border: 1px solid black;
+
+    /* padding */
+
+    padding: 10px 10px;
+
+
+    /* Margin */
+
+    margin: 10px;
+}
