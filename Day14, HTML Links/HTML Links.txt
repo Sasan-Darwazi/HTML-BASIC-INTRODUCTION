@@ -1,0 +1,29 @@
+HTML Links:
+
+Links are found on nearly all web pages. Links allow users to click their way from page to page.
+
+
+HTML Links - Hyperlinks
+
+HTML links are hyperlinks
+You can click on a link and jump to another document.
+
+When you move the mouse over a link, the mouse arrow will turn into a little hand.
+
+E.G.: <a href='url'> Link text</a>
+
+By default, links will appear as follows in all browsers:
+
+.An unvisited link is underlined and blue
+.A visited link is underlined and purple
+.An active link is underlined and red
+
+HTML Links - The target Attribute
+
+By default, the linked page will be displayed in the current browser window. TO change this, you must specify another target for the link.
+
+The Target attribute can have one of the following values:
+._self- Default. Opens the document in the same window/tab as it was clicked
+._blank - Opens the document in a new window or tab
+._parten - Opens the document in the parent frame
+._top - Opens the document in the full body of the window
