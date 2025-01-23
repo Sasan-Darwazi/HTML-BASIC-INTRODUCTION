@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+
+
+.container{
+    min-height: 100vh;
+    background-color: bisque;
+
+    border: 5px solid #ccc;
+}
+
+.content{
+    max-width: 900px;
+    margin: 10px auto;
+}
+
+
+.top_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.top_section h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 1px;;
+}
+
+
+.top_section h3{
+    font-size: 18px;
+    font-family: garamond;
+    font-weight: 500;
+    text-align: end;;
+}
+
+.img_class{
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.img_class, img{
+    width: 320px;
+    height: 250px;
+}
+
+
+.about{
+    margin-top: 50px;;
+}
+
+
+.about h2{
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 10px;;
+    letter-spacing: 1px;
+    font-family: garamond;
+}
+
+
+.about p{
+    font-family: garamond;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    ;
+}
+
+
+
+.bio{
+    margin-top: 50px;
+}
+
+
+.bio h2{
+    font-family: garamond;
+    letter-spacing: 1px;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.bio ul{
+    margin-left: 50px;
+    padding: 10px;
+}
+
+
+.bio ul li{
+    font-family: garamond;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 10px auto;
+}
+
+
+
+footer{
+    margin: 50px auto;
+
+
+}
+
+
+footer p{
+    text-align: end;
+    margin-right: 10px;
+    font-family: garamond;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+footer a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #1d1d1d;
+}
